@@ -11,6 +11,9 @@ env:
   CARGO_TERM_COLOR: always
   PROJECT_NAME: godaddy-cli
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
